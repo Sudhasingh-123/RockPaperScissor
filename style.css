@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: orange;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;   /* jitni height do utni hi line-height dene pe between me aa jayega */
+}
+.choice{
+       height: 165px;
+       width: 165px;
+       border-radius: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.choice:hover{     /*  i want whenever i click to any of the choice it should have some effect fot that we will use hover */
+    cursor: pointer;
+    background-color: black;
+}
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices {
+    display: flex;  /* it will make everything come in same line horizontally */
+    justify-content: center;  /* to make Everything will come in center */
+    align-items: center;
+    gap: 3rem; /* if you want some gaps between them */
+    margin-top: 3rem; /* if u want some gap from headers (from up) */
+}
+.score-board {
+    display: flex; /*  to make everything comme in same line horizontally */
+    justify-content: center; /*  to make it come in center */
+    align-items: center;
+    font-size: 2rem;    /*to increase font-size  */
+    margin-top: 3rem;
+    gap: 5rem;
+
+}
+#user-score, #comp-score {
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msg {
+    background-color: black;
+    color: aliceblue;
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
